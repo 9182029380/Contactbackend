@@ -1,0 +1,5 @@
+[
+  "com/example/ContactPage/controller",
+  "com/example/ContactPage/model",
+  "com/example/ContactPage/service"
+]

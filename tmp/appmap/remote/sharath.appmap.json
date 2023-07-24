@@ -1,0 +1,4502 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "cors",
+          "content-length": "1681",
+          "referer": "http://localhost:8080/swagger-ui/index.html",
+          "sec-fetch-site": "same-origin",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "jenkins-timestamper-offset=-19800000; remember-me=c2hhcmF0aC0xMDcwNDY1ODoxNjkwOTU2NTY3NTUwOjlmNGQwZWZlOGE1YTI1MGI5OGViNWMyOGZkNjE5YzczMzQzODc4MjY2MGEyZjRiMDBkMjk3ODdlZjNjYTI4NDY",
+          "origin": "http://localhost:8080",
+          "accept": "*/*",
+          "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
+          "host": "localhost:8080",
+          "connection": "keep-alive",
+          "content-type": "application/json",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+          "sec-fetch-dest": "empty"
+        },
+        "normalized_path_info": "/api/contacts/addContact",
+        "path_info": "/api/contacts/addContact",
+        "protocol": "HTTP/1.1",
+        "request_method": "POST"
+      },
+      "id": 1,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 2,
+      "lineno": 11,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 411886531,
+          "value": "31"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 483055062,
+        "value": "Contact(id=31, name=null, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.02207301,
+      "event": "return",
+      "id": 3,
+      "parent_id": 2,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 4,
+      "lineno": 11,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 166851645,
+          "value": "Grayson Nguyen"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 483055062,
+        "value": "Contact(id=31, name=Grayson Nguyen, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00039878,
+      "event": "return",
+      "id": 5,
+      "parent_id": 4,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 6,
+      "lineno": 11,
+      "method_id": "setEmail",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "email",
+          "object_id": 1801666050,
+          "value": "grayson.nguyen@example.com"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 483055062,
+        "value": "Contact(id=31, name=Grayson Nguyen, email=grayson.nguyen@example.com, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 7,
+      "parent_id": 6,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 8,
+      "lineno": 11,
+      "method_id": "setPhone",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "phone",
+          "object_id": 1662669396,
+          "value": "555-1122"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 483055062,
+        "value": "Contact(id=31, name=Grayson Nguyen, email=grayson.nguyen@example.com, phone=555-1122, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 9,
+      "parent_id": 8,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 10,
+      "lineno": 11,
+      "method_id": "setCity",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "city",
+          "object_id": 2046426678,
+          "value": "Salt Lake City"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 483055062,
+        "value": "Contact(id=31, name=Grayson Nguyen, email=grayson.nguyen@example.com, phone=555-1122, city=Salt Lake City, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00010008,
+      "event": "return",
+      "id": 11,
+      "parent_id": 10,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 12,
+      "lineno": 11,
+      "method_id": "setZipcode",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "zipcode",
+          "object_id": 1064730443,
+          "value": "84101"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 483055062,
+        "value": "Contact(id=31, name=Grayson Nguyen, email=grayson.nguyen@example.com, phone=555-1122, city=Salt Lake City, zipcode=84101)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 13,
+      "parent_id": 12,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 14,
+      "lineno": 11,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 1293403529,
+          "value": "32"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 2083432077,
+        "value": "Contact(id=32, name=null, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 15,
+      "parent_id": 14,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 16,
+      "lineno": 11,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 1242623856,
+          "value": "Abigail Smith"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 2083432077,
+        "value": "Contact(id=32, name=Abigail Smith, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 17,
+      "parent_id": 16,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 18,
+      "lineno": 11,
+      "method_id": "setEmail",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "email",
+          "object_id": 1175473502,
+          "value": "abigail.smith@example.com"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 2083432077,
+        "value": "Contact(id=32, name=Abigail Smith, email=abigail.smith@example.com, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 19,
+      "parent_id": 18,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 20,
+      "lineno": 11,
+      "method_id": "setPhone",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "phone",
+          "object_id": 895017880,
+          "value": "555-2233"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 2083432077,
+        "value": "Contact(id=32, name=Abigail Smith, email=abigail.smith@example.com, phone=555-2233, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 21,
+      "parent_id": 20,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 22,
+      "lineno": 11,
+      "method_id": "setCity",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "city",
+          "object_id": 1011556720,
+          "value": "New Orleans"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 2083432077,
+        "value": "Contact(id=32, name=Abigail Smith, email=abigail.smith@example.com, phone=555-2233, city=New Orleans, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00010036,
+      "event": "return",
+      "id": 23,
+      "parent_id": 22,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 24,
+      "lineno": 11,
+      "method_id": "setZipcode",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "zipcode",
+          "object_id": 1911370470,
+          "value": "70112"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 2083432077,
+        "value": "Contact(id=32, name=Abigail Smith, email=abigail.smith@example.com, phone=555-2233, city=New Orleans, zipcode=70112)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 25,
+      "parent_id": 24,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 26,
+      "lineno": 11,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 903084856,
+          "value": "33"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1206229561,
+        "value": "Contact(id=33, name=null, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 27,
+      "parent_id": 26,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 28,
+      "lineno": 11,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 574649108,
+          "value": "Ethan Kim"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1206229561,
+        "value": "Contact(id=33, name=Ethan Kim, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 29,
+      "parent_id": 28,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 30,
+      "lineno": 11,
+      "method_id": "setEmail",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "email",
+          "object_id": 975314872,
+          "value": "ethan.kim@example.com"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1206229561,
+        "value": "Contact(id=33, name=Ethan Kim, email=ethan.kim@example.com, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 31,
+      "parent_id": 30,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 32,
+      "lineno": 11,
+      "method_id": "setPhone",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "phone",
+          "object_id": 276969983,
+          "value": "555-3344"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1206229561,
+        "value": "Contact(id=33, name=Ethan Kim, email=ethan.kim@example.com, phone=555-3344, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 33,
+      "parent_id": 32,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 34,
+      "lineno": 11,
+      "method_id": "setCity",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "city",
+          "object_id": 2078104964,
+          "value": "Honolulu"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1206229561,
+        "value": "Contact(id=33, name=Ethan Kim, email=ethan.kim@example.com, phone=555-3344, city=Honolulu, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 35,
+      "parent_id": 34,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 36,
+      "lineno": 11,
+      "method_id": "setZipcode",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "zipcode",
+          "object_id": 1520720184,
+          "value": "96801"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1206229561,
+        "value": "Contact(id=33, name=Ethan Kim, email=ethan.kim@example.com, phone=555-3344, city=Honolulu, zipcode=96801)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 37,
+      "parent_id": 36,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 38,
+      "lineno": 11,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 1892762123,
+          "value": "34"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1906163759,
+        "value": "Contact(id=34, name=null, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 39,
+      "parent_id": 38,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 40,
+      "lineno": 11,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 1614643941,
+          "value": "Charlotte Johnson"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1906163759,
+        "value": "Contact(id=34, name=Charlotte Johnson, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 41,
+      "parent_id": 40,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 42,
+      "lineno": 11,
+      "method_id": "setEmail",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "email",
+          "object_id": 413690435,
+          "value": "charlotte.johnson@example.com"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1906163759,
+        "value": "Contact(id=34, name=Charlotte Johnson, email=charlotte.johnson@example.com, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00010021,
+      "event": "return",
+      "id": 43,
+      "parent_id": 42,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 44,
+      "lineno": 11,
+      "method_id": "setPhone",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "phone",
+          "object_id": 1653846599,
+          "value": "555-4455"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1906163759,
+        "value": "Contact(id=34, name=Charlotte Johnson, email=charlotte.johnson@example.com, phone=555-4455, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 45,
+      "parent_id": 44,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 46,
+      "lineno": 11,
+      "method_id": "setCity",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "city",
+          "object_id": 2106624642,
+          "value": "Anchorage"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1906163759,
+        "value": "Contact(id=34, name=Charlotte Johnson, email=charlotte.johnson@example.com, phone=555-4455, city=Anchorage, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00009977,
+      "event": "return",
+      "id": 47,
+      "parent_id": 46,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 48,
+      "lineno": 11,
+      "method_id": "setZipcode",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "zipcode",
+          "object_id": 1907754367,
+          "value": "99501"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1906163759,
+        "value": "Contact(id=34, name=Charlotte Johnson, email=charlotte.johnson@example.com, phone=555-4455, city=Anchorage, zipcode=99501)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 49,
+      "parent_id": 48,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 50,
+      "lineno": 11,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 706184056,
+          "value": "35"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1432948215,
+        "value": "Contact(id=35, name=null, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 51,
+      "parent_id": 50,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 52,
+      "lineno": 11,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 743725378,
+          "value": "Daniel Hernandez"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1432948215,
+        "value": "Contact(id=35, name=Daniel Hernandez, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 53,
+      "parent_id": 52,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 54,
+      "lineno": 11,
+      "method_id": "setEmail",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "email",
+          "object_id": 1829252170,
+          "value": "daniel.hernandez@example.com"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1432948215,
+        "value": "Contact(id=35, name=Daniel Hernandez, email=daniel.hernandez@example.com, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 55,
+      "parent_id": 54,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 56,
+      "lineno": 11,
+      "method_id": "setPhone",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "phone",
+          "object_id": 2073194192,
+          "value": "555-5566"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1432948215,
+        "value": "Contact(id=35, name=Daniel Hernandez, email=daniel.hernandez@example.com, phone=555-5566, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 57,
+      "parent_id": 56,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 58,
+      "lineno": 11,
+      "method_id": "setCity",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "city",
+          "object_id": 1720304352,
+          "value": "Boise"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1432948215,
+        "value": "Contact(id=35, name=Daniel Hernandez, email=daniel.hernandez@example.com, phone=555-5566, city=Boise, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 59,
+      "parent_id": 58,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 60,
+      "lineno": 11,
+      "method_id": "setZipcode",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "zipcode",
+          "object_id": 1746471226,
+          "value": "83701"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1432948215,
+        "value": "Contact(id=35, name=Daniel Hernandez, email=daniel.hernandez@example.com, phone=555-5566, city=Boise, zipcode=83701)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 61,
+      "parent_id": 60,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 62,
+      "lineno": 11,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 1147077135,
+          "value": "36"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 752029882,
+        "value": "Contact(id=36, name=null, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 63,
+      "parent_id": 62,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 64,
+      "lineno": 11,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 82139394,
+          "value": "Avery Williams"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 752029882,
+        "value": "Contact(id=36, name=Avery Williams, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 65,
+      "parent_id": 64,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 66,
+      "lineno": 11,
+      "method_id": "setEmail",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "email",
+          "object_id": 613798013,
+          "value": "avery.williams@example.com"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 752029882,
+        "value": "Contact(id=36, name=Avery Williams, email=avery.williams@example.com, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 67,
+      "parent_id": 66,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 68,
+      "lineno": 11,
+      "method_id": "setPhone",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "phone",
+          "object_id": 417784218,
+          "value": "555-6677"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 752029882,
+        "value": "Contact(id=36, name=Avery Williams, email=avery.williams@example.com, phone=555-6677, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 69,
+      "parent_id": 68,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 70,
+      "lineno": 11,
+      "method_id": "setCity",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "city",
+          "object_id": 746878204,
+          "value": "Baltimore"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 752029882,
+        "value": "Contact(id=36, name=Avery Williams, email=avery.williams@example.com, phone=555-6677, city=Baltimore, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00009999,
+      "event": "return",
+      "id": 71,
+      "parent_id": 70,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 72,
+      "lineno": 11,
+      "method_id": "setZipcode",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "zipcode",
+          "object_id": 42407207,
+          "value": "21201"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 752029882,
+        "value": "Contact(id=36, name=Avery Williams, email=avery.williams@example.com, phone=555-6677, city=Baltimore, zipcode=21201)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 73,
+      "parent_id": 72,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 74,
+      "lineno": 11,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 136002354,
+          "value": "37"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 668922266,
+        "value": "Contact(id=37, name=null, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00009985,
+      "event": "return",
+      "id": 75,
+      "parent_id": 74,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 76,
+      "lineno": 11,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 686969353,
+          "value": "Sofia Martinez"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 668922266,
+        "value": "Contact(id=37, name=Sofia Martinez, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 77,
+      "parent_id": 76,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 78,
+      "lineno": 11,
+      "method_id": "setEmail",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "email",
+          "object_id": 317080605,
+          "value": "sofia.martinez@example.com"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 668922266,
+        "value": "Contact(id=37, name=Sofia Martinez, email=sofia.martinez@example.com, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 79,
+      "parent_id": 78,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 80,
+      "lineno": 11,
+      "method_id": "setPhone",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "phone",
+          "object_id": 1131757528,
+          "value": "555-7788"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 668922266,
+        "value": "Contact(id=37, name=Sofia Martinez, email=sofia.martinez@example.com, phone=555-7788, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 81,
+      "parent_id": 80,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 82,
+      "lineno": 11,
+      "method_id": "setCity",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "city",
+          "object_id": 326587405,
+          "value": "Albuquerque"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 668922266,
+        "value": "Contact(id=37, name=Sofia Martinez, email=sofia.martinez@example.com, phone=555-7788, city=Albuquerque, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 83,
+      "parent_id": 82,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 84,
+      "lineno": 11,
+      "method_id": "setZipcode",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "zipcode",
+          "object_id": 690962032,
+          "value": "87101"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 668922266,
+        "value": "Contact(id=37, name=Sofia Martinez, email=sofia.martinez@example.com, phone=555-7788, city=Albuquerque, zipcode=87101)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.0000989,
+      "event": "return",
+      "id": 85,
+      "parent_id": 84,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 86,
+      "lineno": 11,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 155795940,
+          "value": "38"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1671967978,
+        "value": "Contact(id=38, name=null, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 87,
+      "parent_id": 86,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 88,
+      "lineno": 11,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 1247204270,
+          "value": "Mason Lee"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1671967978,
+        "value": "Contact(id=38, name=Mason Lee, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 89,
+      "parent_id": 88,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 90,
+      "lineno": 11,
+      "method_id": "setEmail",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "email",
+          "object_id": 442153002,
+          "value": "mason.lee@example.com"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1671967978,
+        "value": "Contact(id=38, name=Mason Lee, email=mason.lee@example.com, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 91,
+      "parent_id": 90,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 92,
+      "lineno": 11,
+      "method_id": "setPhone",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "phone",
+          "object_id": 1499434212,
+          "value": "555-8899"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1671967978,
+        "value": "Contact(id=38, name=Mason Lee, email=mason.lee@example.com, phone=555-8899, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 93,
+      "parent_id": 92,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 94,
+      "lineno": 11,
+      "method_id": "setCity",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "city",
+          "object_id": 2071133249,
+          "value": "Des Moines"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1671967978,
+        "value": "Contact(id=38, name=Mason Lee, email=mason.lee@example.com, phone=555-8899, city=Des Moines, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00009966,
+      "event": "return",
+      "id": 95,
+      "parent_id": 94,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 96,
+      "lineno": 11,
+      "method_id": "setZipcode",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "zipcode",
+          "object_id": 121998114,
+          "value": "50301"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1671967978,
+        "value": "Contact(id=38, name=Mason Lee, email=mason.lee@example.com, phone=555-8899, city=Des Moines, zipcode=50301)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 97,
+      "parent_id": 96,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 98,
+      "lineno": 11,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 1217525768,
+          "value": "39"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1837917522,
+        "value": "Contact(id=39, name=null, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 99,
+      "parent_id": 98,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 100,
+      "lineno": 11,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 24120406,
+          "value": "Evelyn Brown"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1837917522,
+        "value": "Contact(id=39, name=Evelyn Brown, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 101,
+      "parent_id": 100,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 102,
+      "lineno": 11,
+      "method_id": "setEmail",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "email",
+          "object_id": 709331905,
+          "value": "evelyn.brown@example.com"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1837917522,
+        "value": "Contact(id=39, name=Evelyn Brown, email=evelyn.brown@example.com, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00010159,
+      "event": "return",
+      "id": 103,
+      "parent_id": 102,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 104,
+      "lineno": 11,
+      "method_id": "setPhone",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "phone",
+          "object_id": 1842439993,
+          "value": "555-9900"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1837917522,
+        "value": "Contact(id=39, name=Evelyn Brown, email=evelyn.brown@example.com, phone=555-9900, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 105,
+      "parent_id": 104,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 106,
+      "lineno": 11,
+      "method_id": "setCity",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "city",
+          "object_id": 1668884772,
+          "value": "Jacksonville"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1837917522,
+        "value": "Contact(id=39, name=Evelyn Brown, email=evelyn.brown@example.com, phone=555-9900, city=Jacksonville, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00010052,
+      "event": "return",
+      "id": 107,
+      "parent_id": 106,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 108,
+      "lineno": 11,
+      "method_id": "setZipcode",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "zipcode",
+          "object_id": 1659542433,
+          "value": "32201"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1837917522,
+        "value": "Contact(id=39, name=Evelyn Brown, email=evelyn.brown@example.com, phone=555-9900, city=Jacksonville, zipcode=32201)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 109,
+      "parent_id": 108,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 110,
+      "lineno": 11,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 1961168318,
+          "value": "40"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 309019828,
+        "value": "Contact(id=40, name=null, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 111,
+      "parent_id": 110,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 112,
+      "lineno": 11,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 946962388,
+          "value": "Liam Johnson"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 309019828,
+        "value": "Contact(id=40, name=Liam Johnson, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 113,
+      "parent_id": 112,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 114,
+      "lineno": 11,
+      "method_id": "setEmail",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "email",
+          "object_id": 242277608,
+          "value": "liam.johnson@example.com"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 309019828,
+        "value": "Contact(id=40, name=Liam Johnson, email=liam.johnson@example.com, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 115,
+      "parent_id": 114,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 116,
+      "lineno": 11,
+      "method_id": "setPhone",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "phone",
+          "object_id": 1386522725,
+          "value": "555-0011"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 309019828,
+        "value": "Contact(id=40, name=Liam Johnson, email=liam.johnson@example.com, phone=555-0011, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 117,
+      "parent_id": 116,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 118,
+      "lineno": 11,
+      "method_id": "setCity",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "city",
+          "object_id": 446826593,
+          "value": "Milwaukee"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 309019828,
+        "value": "Contact(id=40, name=Liam Johnson, email=liam.johnson@example.com, phone=555-0011, city=Milwaukee, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 119,
+      "parent_id": 118,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 120,
+      "lineno": 11,
+      "method_id": "setZipcode",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "zipcode",
+          "object_id": 698243902,
+          "value": "53201"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 309019828,
+        "value": "Contact(id=40, name=Liam Johnson, email=liam.johnson@example.com, phone=555-0011, city=Milwaukee, zipcode=53201)"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00013452,
+      "event": "return",
+      "id": 121,
+      "parent_id": 120,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.controller.ContactController",
+      "event": "call",
+      "id": 122,
+      "lineno": 25,
+      "method_id": "addConatct",
+      "parameters": [
+        {
+          "class": "java.util.ArrayList",
+          "kind": "req",
+          "name": "contact",
+          "object_id": 790947200,
+          "value": "[Contact(id=31, name=Grayson Nguyen, email=grayson.nguyen@example.com, phone=555-1122, city=Salt Lake City, zipcode=84101), Contact(id=32, name=Abigail Smith, email=abigail.smith@example.com, phone=555-2233, city=New Orleans, zipcode=70112), Contact(id=33, name=Ethan Kim, email=ethan.kim@example.com, phone=555-3344, city=Honolulu, zipcode=96801), Contact(id=34, name=Charlotte Johnson, email=charlotte.johnson@example.com, phone=555-4455, city=Anchorage, zipcode=99501), Contact(id=35, name=Daniel Hernandez, email=daniel.hernandez@example.com, phone=555-5566, city=Boise, zipcode=83701), Contact(id=36, name=Avery Williams, email=avery.williams@example.com, phone=555-6677, city=Baltimore, zipcode=21201), Contact(id=37, name=Sofia Martinez, email=sofia.martinez@example.com, phone=555-7788, city=Albuquerque, zipcode=87101), Contact(id=38, name=Mason Lee, email=mason.lee@example.com, phone=555-8899, city=Des Moines, zipcode=50301), Contact(id=39, name=Evelyn Brown, email=evelyn.brown@example.com, phone=555-9900, c..."
+        }
+      ],
+      "path": "com/example/ContactPage/controller/ContactController.java",
+      "receiver": {
+        "class": "com.example.ContactPage.controller.ContactController",
+        "object_id": 1126178692,
+        "value": "com.example.ContactPage.controller.ContactController@43201f84"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.example.ContactPage.service.ContactService",
+      "event": "call",
+      "id": 123,
+      "lineno": 22,
+      "method_id": "createContact",
+      "parameters": [
+        {
+          "class": "java.util.ArrayList",
+          "kind": "req",
+          "name": "contact",
+          "object_id": 790947200,
+          "value": "[Contact(id=31, name=Grayson Nguyen, email=grayson.nguyen@example.com, phone=555-1122, city=Salt Lake City, zipcode=84101), Contact(id=32, name=Abigail Smith, email=abigail.smith@example.com, phone=555-2233, city=New Orleans, zipcode=70112), Contact(id=33, name=Ethan Kim, email=ethan.kim@example.com, phone=555-3344, city=Honolulu, zipcode=96801), Contact(id=34, name=Charlotte Johnson, email=charlotte.johnson@example.com, phone=555-4455, city=Anchorage, zipcode=99501), Contact(id=35, name=Daniel Hernandez, email=daniel.hernandez@example.com, phone=555-5566, city=Boise, zipcode=83701), Contact(id=36, name=Avery Williams, email=avery.williams@example.com, phone=555-6677, city=Baltimore, zipcode=21201), Contact(id=37, name=Sofia Martinez, email=sofia.martinez@example.com, phone=555-7788, city=Albuquerque, zipcode=87101), Contact(id=38, name=Mason Lee, email=mason.lee@example.com, phone=555-8899, city=Des Moines, zipcode=50301), Contact(id=39, name=Evelyn Brown, email=evelyn.brown@example.com, phone=555-9900, c..."
+        }
+      ],
+      "path": "com/example/ContactPage/service/ContactService.java",
+      "receiver": {
+        "class": "com.example.ContactPage.service.ContactService",
+        "object_id": 192279540,
+        "value": "com.example.ContactPage.service.ContactService@b75f3f4"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 124,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.05589629,
+      "event": "return",
+      "id": 125,
+      "parent_id": 124,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 126,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "insert into contact (city, email, name, phone, zipcode) values (?, ?, ?, ?, ?)"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00030141,
+      "event": "return",
+      "id": 127,
+      "parent_id": 126,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 128,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00009986,
+      "event": "return",
+      "id": 129,
+      "parent_id": 128,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 130,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "insert into contact (city, email, name, phone, zipcode) values (?, ?, ?, ?, ?)"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 131,
+      "parent_id": 130,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 132,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00009976,
+      "event": "return",
+      "id": 133,
+      "parent_id": 132,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 134,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "insert into contact (city, email, name, phone, zipcode) values (?, ?, ?, ?, ?)"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00009942,
+      "event": "return",
+      "id": 135,
+      "parent_id": 134,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 136,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00009927,
+      "event": "return",
+      "id": 137,
+      "parent_id": 136,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 138,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "insert into contact (city, email, name, phone, zipcode) values (?, ?, ?, ?, ?)"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00019778,
+      "event": "return",
+      "id": 139,
+      "parent_id": 138,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 140,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 141,
+      "parent_id": 140,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 142,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "insert into contact (city, email, name, phone, zipcode) values (?, ?, ?, ?, ?)"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 143,
+      "parent_id": 142,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 144,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00005251,
+      "event": "return",
+      "id": 145,
+      "parent_id": 144,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 146,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "insert into contact (city, email, name, phone, zipcode) values (?, ?, ?, ?, ?)"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.0000592,
+      "event": "return",
+      "id": 147,
+      "parent_id": 146,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 148,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00009789,
+      "event": "return",
+      "id": 149,
+      "parent_id": 148,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 150,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "insert into contact (city, email, name, phone, zipcode) values (?, ?, ?, ?, ?)"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00010079,
+      "event": "return",
+      "id": 151,
+      "parent_id": 150,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 152,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 153,
+      "parent_id": 152,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 154,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "insert into contact (city, email, name, phone, zipcode) values (?, ?, ?, ?, ?)"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.0001994,
+      "event": "return",
+      "id": 155,
+      "parent_id": 154,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 156,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 157,
+      "parent_id": 156,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 158,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "insert into contact (city, email, name, phone, zipcode) values (?, ?, ?, ?, ?)"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.0001003,
+      "event": "return",
+      "id": 159,
+      "parent_id": 158,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 160,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 161,
+      "parent_id": 160,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "id": 162,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "insert into contact (city, email, name, phone, zipcode) values (?, ?, ?, ?, ?)"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00009684,
+      "event": "return",
+      "id": 163,
+      "parent_id": 162,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.09333142,
+      "event": "return",
+      "id": 164,
+      "parent_id": 123,
+      "return_value": {
+        "class": "java.util.ArrayList",
+        "object_id": 250766364,
+        "value": "[Contact(id=31, name=Grayson Nguyen, email=grayson.nguyen@example.com, phone=555-1122, city=Salt Lake City, zipcode=84101), Contact(id=32, name=Abigail Smith, email=abigail.smith@example.com, phone=555-2233, city=New Orleans, zipcode=70112), Contact(id=33, name=Ethan Kim, email=ethan.kim@example.com, phone=555-3344, city=Honolulu, zipcode=96801), Contact(id=34, name=Charlotte Johnson, email=charlotte.johnson@example.com, phone=555-4455, city=Anchorage, zipcode=99501), Contact(id=35, name=Daniel Hernandez, email=daniel.hernandez@example.com, phone=555-5566, city=Boise, zipcode=83701), Contact(id=36, name=Avery Williams, email=avery.williams@example.com, phone=555-6677, city=Baltimore, zipcode=21201), Contact(id=37, name=Sofia Martinez, email=sofia.martinez@example.com, phone=555-7788, city=Albuquerque, zipcode=87101), Contact(id=38, name=Mason Lee, email=mason.lee@example.com, phone=555-8899, city=Des Moines, zipcode=50301), Contact(id=39, name=Evelyn Brown, email=evelyn.brown@example.com, phone=555-9900, c..."
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.09333142,
+      "event": "return",
+      "id": 165,
+      "parent_id": 122,
+      "return_value": {
+        "class": "java.util.ArrayList",
+        "object_id": 250766364,
+        "value": "[Contact(id=31, name=Grayson Nguyen, email=grayson.nguyen@example.com, phone=555-1122, city=Salt Lake City, zipcode=84101), Contact(id=32, name=Abigail Smith, email=abigail.smith@example.com, phone=555-2233, city=New Orleans, zipcode=70112), Contact(id=33, name=Ethan Kim, email=ethan.kim@example.com, phone=555-3344, city=Honolulu, zipcode=96801), Contact(id=34, name=Charlotte Johnson, email=charlotte.johnson@example.com, phone=555-4455, city=Anchorage, zipcode=99501), Contact(id=35, name=Daniel Hernandez, email=daniel.hernandez@example.com, phone=555-5566, city=Boise, zipcode=83701), Contact(id=36, name=Avery Williams, email=avery.williams@example.com, phone=555-6677, city=Baltimore, zipcode=21201), Contact(id=37, name=Sofia Martinez, email=sofia.martinez@example.com, phone=555-7788, city=Albuquerque, zipcode=87101), Contact(id=38, name=Mason Lee, email=mason.lee@example.com, phone=555-8899, city=Des Moines, zipcode=50301), Contact(id=39, name=Evelyn Brown, email=evelyn.brown@example.com, phone=555-9900, c..."
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.17070512,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Transfer-Encoding": "chunked",
+          "Keep-Alive": "timeout=60",
+          "Connection": "keep-alive",
+          "Date": "Mon, 24 Jul 2023 11:05:08 GMT",
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      },
+      "id": 166,
+      "parent_id": 1,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "cors",
+          "content-length": "132",
+          "referer": "http://localhost:8080/swagger-ui/index.html",
+          "sec-fetch-site": "same-origin",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "jenkins-timestamper-offset=-19800000; remember-me=c2hhcmF0aC0xMDcwNDY1ODoxNjkwOTU2NTY3NTUwOjlmNGQwZWZlOGE1YTI1MGI5OGViNWMyOGZkNjE5YzczMzQzODc4MjY2MGEyZjRiMDBkMjk3ODdlZjNjYTI4NDY",
+          "origin": "http://localhost:8080",
+          "accept": "*/*",
+          "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
+          "host": "localhost:8080",
+          "connection": "keep-alive",
+          "content-type": "application/json",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+          "sec-fetch-dest": "empty"
+        },
+        "normalized_path_info": "/api/contacts/updateContact",
+        "path_info": "/api/contacts/updateContact",
+        "protocol": "HTTP/1.1",
+        "request_method": "PUT"
+      },
+      "id": 167,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 168,
+      "lineno": 11,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 19307935,
+          "value": "3"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 85530979,
+        "value": "Contact(id=3, name=null, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.0001008,
+      "event": "return",
+      "id": 169,
+      "parent_id": 168,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 170,
+      "lineno": 11,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 1075550116,
+          "value": "kumar"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 85530979,
+        "value": "Contact(id=3, name=kumar, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 171,
+      "parent_id": 170,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 172,
+      "lineno": 11,
+      "method_id": "setEmail",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "email",
+          "object_id": 1156449374,
+          "value": "sharath@example.com"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 85530979,
+        "value": "Contact(id=3, name=kumar, email=sharath@example.com, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 173,
+      "parent_id": 172,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 174,
+      "lineno": 11,
+      "method_id": "setPhone",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "phone",
+          "object_id": 1896985401,
+          "value": "9182092380"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 85530979,
+        "value": "Contact(id=3, name=kumar, email=sharath@example.com, phone=9182092380, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 175,
+      "parent_id": 174,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 176,
+      "lineno": 11,
+      "method_id": "setCity",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "city",
+          "object_id": 1007582841,
+          "value": "pune"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 85530979,
+        "value": "Contact(id=3, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.00009994,
+      "event": "return",
+      "id": 177,
+      "parent_id": 176,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 178,
+      "lineno": 11,
+      "method_id": "setZipcode",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "zipcode",
+          "object_id": 540305643,
+          "value": "509123"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 85530979,
+        "value": "Contact(id=3, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 179,
+      "parent_id": 178,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.example.ContactPage.controller.ContactController",
+      "event": "call",
+      "id": 180,
+      "lineno": 40,
+      "method_id": "updateContact",
+      "parameters": [
+        {
+          "class": "com.example.ContactPage.model.Contact",
+          "kind": "req",
+          "name": "contact",
+          "object_id": 85530979,
+          "value": "Contact(id=3, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+        }
+      ],
+      "path": "com/example/ContactPage/controller/ContactController.java",
+      "receiver": {
+        "class": "com.example.ContactPage.controller.ContactController",
+        "object_id": 1126178692,
+        "value": "com.example.ContactPage.controller.ContactController@43201f84"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.example.ContactPage.service.ContactService",
+      "event": "call",
+      "id": 181,
+      "lineno": 34,
+      "method_id": "updateContact",
+      "parameters": [
+        {
+          "class": "com.example.ContactPage.model.Contact",
+          "kind": "req",
+          "name": "contact",
+          "object_id": 85530979,
+          "value": "Contact(id=3, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+        }
+      ],
+      "path": "com/example/ContactPage/service/ContactService.java",
+      "receiver": {
+        "class": "com.example.ContactPage.service.ContactService",
+        "object_id": 192279540,
+        "value": "com.example.ContactPage.service.ContactService@b75f3f4"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "event": "call",
+      "id": 182,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.00019883,
+      "event": "return",
+      "id": 183,
+      "parent_id": 182,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.00422328,
+      "event": "return",
+      "id": 184,
+      "parent_id": 181,
+      "return_value": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 24481690,
+        "value": "Contact(id=0, name=null, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.00422328,
+      "event": "return",
+      "id": 185,
+      "parent_id": 180,
+      "return_value": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 24481690,
+        "value": "Contact(id=0, name=null, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.00552846,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Transfer-Encoding": "chunked",
+          "Keep-Alive": "timeout=60",
+          "Connection": "keep-alive",
+          "Date": "Mon, 24 Jul 2023 11:06:09 GMT",
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      },
+      "id": 186,
+      "parent_id": 167,
+      "thread_id": 29
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "cors",
+          "content-length": "132",
+          "referer": "http://localhost:8080/swagger-ui/index.html",
+          "sec-fetch-site": "same-origin",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "jenkins-timestamper-offset=-19800000; remember-me=c2hhcmF0aC0xMDcwNDY1ODoxNjkwOTU2NTY3NTUwOjlmNGQwZWZlOGE1YTI1MGI5OGViNWMyOGZkNjE5YzczMzQzODc4MjY2MGEyZjRiMDBkMjk3ODdlZjNjYTI4NDY",
+          "origin": "http://localhost:8080",
+          "accept": "*/*",
+          "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
+          "host": "localhost:8080",
+          "connection": "keep-alive",
+          "content-type": "application/json",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+          "sec-fetch-dest": "empty"
+        },
+        "normalized_path_info": "/api/contacts",
+        "path_info": "/api/contacts",
+        "protocol": "HTTP/1.1",
+        "request_method": "POST"
+      },
+      "id": 187,
+      "thread_id": 31
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 188,
+      "lineno": 11,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 19307935,
+          "value": "3"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1111085944,
+        "value": "Contact(id=3, name=null, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0.00009826,
+      "event": "return",
+      "id": 189,
+      "parent_id": 188,
+      "thread_id": 31
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 190,
+      "lineno": 11,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 1174822887,
+          "value": "kumar"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1111085944,
+        "value": "Contact(id=3, name=kumar, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 191,
+      "parent_id": 190,
+      "thread_id": 31
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 192,
+      "lineno": 11,
+      "method_id": "setEmail",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "email",
+          "object_id": 50649411,
+          "value": "sharath@example.com"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1111085944,
+        "value": "Contact(id=3, name=kumar, email=sharath@example.com, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 193,
+      "parent_id": 192,
+      "thread_id": 31
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 194,
+      "lineno": 11,
+      "method_id": "setPhone",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "phone",
+          "object_id": 1046679352,
+          "value": "9182092380"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1111085944,
+        "value": "Contact(id=3, name=kumar, email=sharath@example.com, phone=9182092380, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 195,
+      "parent_id": 194,
+      "thread_id": 31
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 196,
+      "lineno": 11,
+      "method_id": "setCity",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "city",
+          "object_id": 843954591,
+          "value": "pune"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1111085944,
+        "value": "Contact(id=3, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 197,
+      "parent_id": 196,
+      "thread_id": 31
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 198,
+      "lineno": 11,
+      "method_id": "setZipcode",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "zipcode",
+          "object_id": 1187000662,
+          "value": "509123"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1111085944,
+        "value": "Contact(id=3, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "static": false,
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 199,
+      "parent_id": 198,
+      "thread_id": 31
+    },
+    {
+      "defined_class": "com.example.ContactPage.controller.ContactController",
+      "event": "call",
+      "id": 200,
+      "lineno": 20,
+      "method_id": "addContact",
+      "parameters": [
+        {
+          "class": "com.example.ContactPage.model.Contact",
+          "kind": "req",
+          "name": "contact",
+          "object_id": 1111085944,
+          "value": "Contact(id=3, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+        }
+      ],
+      "path": "com/example/ContactPage/controller/ContactController.java",
+      "receiver": {
+        "class": "com.example.ContactPage.controller.ContactController",
+        "object_id": 1126178692,
+        "value": "com.example.ContactPage.controller.ContactController@43201f84"
+      },
+      "static": false,
+      "thread_id": 31
+    },
+    {
+      "defined_class": "com.example.ContactPage.service.ContactService",
+      "event": "call",
+      "id": 201,
+      "lineno": 18,
+      "method_id": "createContact",
+      "parameters": [
+        {
+          "class": "com.example.ContactPage.model.Contact",
+          "kind": "req",
+          "name": "contact",
+          "object_id": 1111085944,
+          "value": "Contact(id=3, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+        }
+      ],
+      "path": "com/example/ContactPage/service/ContactService.java",
+      "receiver": {
+        "class": "com.example.ContactPage.service.ContactService",
+        "object_id": 192279540,
+        "value": "com.example.ContactPage.service.ContactService@b75f3f4"
+      },
+      "static": false,
+      "thread_id": 31
+    },
+    {
+      "event": "call",
+      "id": 202,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0.00010005,
+      "event": "return",
+      "id": 203,
+      "parent_id": 202,
+      "thread_id": 31
+    },
+    {
+      "event": "call",
+      "id": 204,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "insert into contact (city, email, name, phone, zipcode) values (?, ?, ?, ?, ?)"
+      },
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0.00009995,
+      "event": "return",
+      "id": 205,
+      "parent_id": 204,
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0.00604665,
+      "event": "return",
+      "id": 206,
+      "parent_id": 201,
+      "return_value": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1573191548,
+        "value": "Contact(id=41, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0.00604665,
+      "event": "return",
+      "id": 207,
+      "parent_id": 200,
+      "return_value": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1573191548,
+        "value": "Contact(id=41, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0.00775288,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Transfer-Encoding": "chunked",
+          "Keep-Alive": "timeout=60",
+          "Connection": "keep-alive",
+          "Date": "Mon, 24 Jul 2023 11:06:27 GMT",
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      },
+      "id": 208,
+      "parent_id": 187,
+      "thread_id": 31
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "cors",
+          "referer": "http://localhost:8080/swagger-ui/index.html",
+          "sec-fetch-site": "same-origin",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "jenkins-timestamper-offset=-19800000; remember-me=c2hhcmF0aC0xMDcwNDY1ODoxNjkwOTU2NTY3NTUwOjlmNGQwZWZlOGE1YTI1MGI5OGViNWMyOGZkNjE5YzczMzQzODc4MjY2MGEyZjRiMDBkMjk3ODdlZjNjYTI4NDY",
+          "origin": "http://localhost:8080",
+          "accept": "*/*",
+          "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
+          "host": "localhost:8080",
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+          "sec-fetch-dest": "empty"
+        },
+        "normalized_path_info": "/api/contacts/contact/{id}",
+        "path_info": "/api/contacts/contact/5",
+        "protocol": "HTTP/1.1",
+        "request_method": "DELETE"
+      },
+      "id": 209,
+      "message": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "id",
+          "object_id": 426653269,
+          "value": "5"
+        }
+      ],
+      "thread_id": 33
+    },
+    {
+      "defined_class": "com.example.ContactPage.controller.ContactController",
+      "event": "call",
+      "id": 210,
+      "lineno": 45,
+      "method_id": "deleteContact",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 395259356,
+          "value": "5"
+        }
+      ],
+      "path": "com/example/ContactPage/controller/ContactController.java",
+      "receiver": {
+        "class": "com.example.ContactPage.controller.ContactController",
+        "object_id": 1126178692,
+        "value": "com.example.ContactPage.controller.ContactController@43201f84"
+      },
+      "static": false,
+      "thread_id": 33
+    },
+    {
+      "defined_class": "com.example.ContactPage.service.ContactService",
+      "event": "call",
+      "id": 211,
+      "lineno": 52,
+      "method_id": "deleteContactById",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 395259356,
+          "value": "5"
+        }
+      ],
+      "path": "com/example/ContactPage/service/ContactService.java",
+      "receiver": {
+        "class": "com.example.ContactPage.service.ContactService",
+        "object_id": 192279540,
+        "value": "com.example.ContactPage.service.ContactService@b75f3f4"
+      },
+      "static": false,
+      "thread_id": 33
+    },
+    {
+      "event": "call",
+      "id": 212,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 33
+    },
+    {
+      "elapsed": 0.0000996,
+      "event": "return",
+      "id": 213,
+      "parent_id": 212,
+      "thread_id": 33
+    },
+    {
+      "event": "call",
+      "id": 214,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "delete from contact where id=?"
+      },
+      "thread_id": 33
+    },
+    {
+      "elapsed": 0.00010035,
+      "event": "return",
+      "id": 215,
+      "parent_id": 214,
+      "thread_id": 33
+    },
+    {
+      "elapsed": 0.00902411,
+      "event": "return",
+      "id": 216,
+      "parent_id": 211,
+      "return_value": {
+        "class": "java.lang.String",
+        "object_id": 1253119970,
+        "value": "Contact got deleted"
+      },
+      "thread_id": 33
+    },
+    {
+      "elapsed": 0.00912538,
+      "event": "return",
+      "id": 217,
+      "parent_id": 210,
+      "return_value": {
+        "class": "java.lang.String",
+        "object_id": 1253119970,
+        "value": "Contact got deleted"
+      },
+      "thread_id": 33
+    },
+    {
+      "elapsed": 0.01073823,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Keep-Alive": "timeout=60",
+          "Connection": "keep-alive",
+          "Content-Length": "19",
+          "Date": "Mon, 24 Jul 2023 11:07:37 GMT",
+          "Content-Type": "text/plain;charset=UTF-8"
+        },
+        "status": 200
+      },
+      "id": 218,
+      "parent_id": 209,
+      "thread_id": 33
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "cors",
+          "content-length": "133",
+          "referer": "http://localhost:8080/swagger-ui/index.html",
+          "sec-fetch-site": "same-origin",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "jenkins-timestamper-offset=-19800000; remember-me=c2hhcmF0aC0xMDcwNDY1ODoxNjkwOTU2NTY3NTUwOjlmNGQwZWZlOGE1YTI1MGI5OGViNWMyOGZkNjE5YzczMzQzODc4MjY2MGEyZjRiMDBkMjk3ODdlZjNjYTI4NDY",
+          "origin": "http://localhost:8080",
+          "accept": "*/*",
+          "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
+          "host": "localhost:8080",
+          "connection": "keep-alive",
+          "content-type": "application/json",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+          "sec-fetch-dest": "empty"
+        },
+        "normalized_path_info": "/api/contacts",
+        "path_info": "/api/contacts",
+        "protocol": "HTTP/1.1",
+        "request_method": "POST"
+      },
+      "id": 219,
+      "thread_id": 34
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 220,
+      "lineno": 11,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 1284441994,
+          "value": "41"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1453484505,
+        "value": "Contact(id=41, name=null, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 34
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 221,
+      "parent_id": 220,
+      "thread_id": 34
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 222,
+      "lineno": 11,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 1386084309,
+          "value": "kumar"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1453484505,
+        "value": "Contact(id=41, name=kumar, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 34
+    },
+    {
+      "elapsed": 0.00009943,
+      "event": "return",
+      "id": 223,
+      "parent_id": 222,
+      "thread_id": 34
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 224,
+      "lineno": 11,
+      "method_id": "setEmail",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "email",
+          "object_id": 396321762,
+          "value": "sharath@example.com"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1453484505,
+        "value": "Contact(id=41, name=kumar, email=sharath@example.com, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 34
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 225,
+      "parent_id": 224,
+      "thread_id": 34
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 226,
+      "lineno": 11,
+      "method_id": "setPhone",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "phone",
+          "object_id": 1667974400,
+          "value": "9182092380"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1453484505,
+        "value": "Contact(id=41, name=kumar, email=sharath@example.com, phone=9182092380, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 34
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 227,
+      "parent_id": 226,
+      "thread_id": 34
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 228,
+      "lineno": 11,
+      "method_id": "setCity",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "city",
+          "object_id": 641864725,
+          "value": "pune"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1453484505,
+        "value": "Contact(id=41, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 34
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 229,
+      "parent_id": 228,
+      "thread_id": 34
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 230,
+      "lineno": 11,
+      "method_id": "setZipcode",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "zipcode",
+          "object_id": 459041879,
+          "value": "509123"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1453484505,
+        "value": "Contact(id=41, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "static": false,
+      "thread_id": 34
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 231,
+      "parent_id": 230,
+      "thread_id": 34
+    },
+    {
+      "defined_class": "com.example.ContactPage.controller.ContactController",
+      "event": "call",
+      "id": 232,
+      "lineno": 20,
+      "method_id": "addContact",
+      "parameters": [
+        {
+          "class": "com.example.ContactPage.model.Contact",
+          "kind": "req",
+          "name": "contact",
+          "object_id": 1453484505,
+          "value": "Contact(id=41, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+        }
+      ],
+      "path": "com/example/ContactPage/controller/ContactController.java",
+      "receiver": {
+        "class": "com.example.ContactPage.controller.ContactController",
+        "object_id": 1126178692,
+        "value": "com.example.ContactPage.controller.ContactController@43201f84"
+      },
+      "static": false,
+      "thread_id": 34
+    },
+    {
+      "defined_class": "com.example.ContactPage.service.ContactService",
+      "event": "call",
+      "id": 233,
+      "lineno": 18,
+      "method_id": "createContact",
+      "parameters": [
+        {
+          "class": "com.example.ContactPage.model.Contact",
+          "kind": "req",
+          "name": "contact",
+          "object_id": 1453484505,
+          "value": "Contact(id=41, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+        }
+      ],
+      "path": "com/example/ContactPage/service/ContactService.java",
+      "receiver": {
+        "class": "com.example.ContactPage.service.ContactService",
+        "object_id": 192279540,
+        "value": "com.example.ContactPage.service.ContactService@b75f3f4"
+      },
+      "static": false,
+      "thread_id": 34
+    },
+    {
+      "event": "call",
+      "id": 234,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 34
+    },
+    {
+      "elapsed": 0.00009986,
+      "event": "return",
+      "id": 235,
+      "parent_id": 234,
+      "thread_id": 34
+    },
+    {
+      "event": "call",
+      "id": 236,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "update contact set city=?, email=?, name=?, phone=?, zipcode=? where id=?"
+      },
+      "thread_id": 34
+    },
+    {
+      "elapsed": 0.00010113,
+      "event": "return",
+      "id": 237,
+      "parent_id": 236,
+      "thread_id": 34
+    },
+    {
+      "elapsed": 0.00646988,
+      "event": "return",
+      "id": 238,
+      "parent_id": 233,
+      "return_value": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1946060732,
+        "value": "Contact(id=41, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "thread_id": 34
+    },
+    {
+      "elapsed": 0.00656965,
+      "event": "return",
+      "id": 239,
+      "parent_id": 232,
+      "return_value": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1946060732,
+        "value": "Contact(id=41, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "thread_id": 34
+    },
+    {
+      "elapsed": 0.0076677,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Transfer-Encoding": "chunked",
+          "Keep-Alive": "timeout=60",
+          "Connection": "keep-alive",
+          "Date": "Mon, 24 Jul 2023 11:07:10 GMT",
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      },
+      "id": 240,
+      "parent_id": 219,
+      "thread_id": 34
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "cors",
+          "content-length": "131",
+          "referer": "http://localhost:8080/swagger-ui/index.html",
+          "sec-fetch-site": "same-origin",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "jenkins-timestamper-offset=-19800000; remember-me=c2hhcmF0aC0xMDcwNDY1ODoxNjkwOTU2NTY3NTUwOjlmNGQwZWZlOGE1YTI1MGI5OGViNWMyOGZkNjE5YzczMzQzODc4MjY2MGEyZjRiMDBkMjk3ODdlZjNjYTI4NDY",
+          "origin": "http://localhost:8080",
+          "accept": "*/*",
+          "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
+          "host": "localhost:8080",
+          "connection": "keep-alive",
+          "content-type": "application/json",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+          "sec-fetch-dest": "empty"
+        },
+        "normalized_path_info": "/api/contacts/updateContact",
+        "path_info": "/api/contacts/updateContact",
+        "protocol": "HTTP/1.1",
+        "request_method": "PUT"
+      },
+      "id": 241,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 242,
+      "lineno": 11,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 1284441994,
+          "value": "41"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1219533507,
+        "value": "Contact(id=41, name=null, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 243,
+      "parent_id": 242,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 244,
+      "lineno": 11,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 229772721,
+          "value": "kumar"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1219533507,
+        "value": "Contact(id=41, name=kumar, email=null, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 245,
+      "parent_id": 244,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 246,
+      "lineno": 11,
+      "method_id": "setEmail",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "email",
+          "object_id": 141734109,
+          "value": "kumar@example.com"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1219533507,
+        "value": "Contact(id=41, name=kumar, email=kumar@example.com, phone=null, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 247,
+      "parent_id": 246,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 248,
+      "lineno": 11,
+      "method_id": "setPhone",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "phone",
+          "object_id": 1014318350,
+          "value": "9182092380"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1219533507,
+        "value": "Contact(id=41, name=kumar, email=kumar@example.com, phone=9182092380, city=null, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 249,
+      "parent_id": 248,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 250,
+      "lineno": 11,
+      "method_id": "setCity",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "city",
+          "object_id": 1885316801,
+          "value": "pune"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1219533507,
+        "value": "Contact(id=41, name=kumar, email=kumar@example.com, phone=9182092380, city=pune, zipcode=null)"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 251,
+      "parent_id": 250,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 252,
+      "lineno": 11,
+      "method_id": "setZipcode",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "zipcode",
+          "object_id": 1839067902,
+          "value": "509123"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 1219533507,
+        "value": "Contact(id=41, name=kumar, email=kumar@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.000107,
+      "event": "return",
+      "id": 253,
+      "parent_id": 252,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.example.ContactPage.controller.ContactController",
+      "event": "call",
+      "id": 254,
+      "lineno": 40,
+      "method_id": "updateContact",
+      "parameters": [
+        {
+          "class": "com.example.ContactPage.model.Contact",
+          "kind": "req",
+          "name": "contact",
+          "object_id": 1219533507,
+          "value": "Contact(id=41, name=kumar, email=kumar@example.com, phone=9182092380, city=pune, zipcode=509123)"
+        }
+      ],
+      "path": "com/example/ContactPage/controller/ContactController.java",
+      "receiver": {
+        "class": "com.example.ContactPage.controller.ContactController",
+        "object_id": 1126178692,
+        "value": "com.example.ContactPage.controller.ContactController@43201f84"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.example.ContactPage.service.ContactService",
+      "event": "call",
+      "id": 255,
+      "lineno": 34,
+      "method_id": "updateContact",
+      "parameters": [
+        {
+          "class": "com.example.ContactPage.model.Contact",
+          "kind": "req",
+          "name": "contact",
+          "object_id": 1219533507,
+          "value": "Contact(id=41, name=kumar, email=kumar@example.com, phone=9182092380, city=pune, zipcode=509123)"
+        }
+      ],
+      "path": "com/example/ContactPage/service/ContactService.java",
+      "receiver": {
+        "class": "com.example.ContactPage.service.ContactService",
+        "object_id": 192279540,
+        "value": "com.example.ContactPage.service.ContactService@b75f3f4"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "event": "call",
+      "id": 256,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.00020109,
+      "event": "return",
+      "id": 257,
+      "parent_id": 256,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 258,
+      "lineno": 11,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 229772721,
+          "value": "kumar"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 129939926,
+        "value": "Contact(id=41, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 259,
+      "parent_id": 258,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 260,
+      "lineno": 11,
+      "method_id": "setCity",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "city",
+          "object_id": 1885316801,
+          "value": "pune"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 129939926,
+        "value": "Contact(id=41, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 261,
+      "parent_id": 260,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 262,
+      "lineno": 11,
+      "method_id": "setEmail",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "email",
+          "object_id": 141734109,
+          "value": "kumar@example.com"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 129939926,
+        "value": "Contact(id=41, name=kumar, email=kumar@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.00009953,
+      "event": "return",
+      "id": 263,
+      "parent_id": 262,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 264,
+      "lineno": 11,
+      "method_id": "setPhone",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "phone",
+          "object_id": 1014318350,
+          "value": "9182092380"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 129939926,
+        "value": "Contact(id=41, name=kumar, email=kumar@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 265,
+      "parent_id": 264,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.example.ContactPage.model.Contact",
+      "event": "call",
+      "id": 266,
+      "lineno": 11,
+      "method_id": "setZipcode",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "zipcode",
+          "object_id": 1839067902,
+          "value": "509123"
+        }
+      ],
+      "path": "com/example/ContactPage/model/Contact.java",
+      "receiver": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 129939926,
+        "value": "Contact(id=41, name=kumar, email=kumar@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 267,
+      "parent_id": 266,
+      "thread_id": 28
+    },
+    {
+      "event": "call",
+      "id": 268,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "update contact set city=?, email=?, name=?, phone=?, zipcode=? where id=?"
+      },
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.00009948,
+      "event": "return",
+      "id": 269,
+      "parent_id": 268,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.00772536,
+      "event": "return",
+      "id": 270,
+      "parent_id": 255,
+      "return_value": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 129939926,
+        "value": "Contact(id=41, name=kumar, email=kumar@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.00772536,
+      "event": "return",
+      "id": 271,
+      "parent_id": 254,
+      "return_value": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 129939926,
+        "value": "Contact(id=41, name=kumar, email=kumar@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.00912895,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Transfer-Encoding": "chunked",
+          "Keep-Alive": "timeout=60",
+          "Connection": "keep-alive",
+          "Date": "Mon, 24 Jul 2023 11:06:46 GMT",
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      },
+      "id": 272,
+      "parent_id": 241,
+      "thread_id": 28
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "cors",
+          "referer": "http://localhost:8080/swagger-ui/index.html",
+          "sec-fetch-site": "same-origin",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "jenkins-timestamper-offset=-19800000; remember-me=c2hhcmF0aC0xMDcwNDY1ODoxNjkwOTU2NTY3NTUwOjlmNGQwZWZlOGE1YTI1MGI5OGViNWMyOGZkNjE5YzczMzQzODc4MjY2MGEyZjRiMDBkMjk3ODdlZjNjYTI4NDY",
+          "accept": "*/*",
+          "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
+          "host": "localhost:8080",
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+          "sec-fetch-dest": "empty"
+        },
+        "normalized_path_info": "/api/contacts/contact",
+        "path_info": "/api/contacts/contact",
+        "protocol": "HTTP/1.1",
+        "request_method": "GET"
+      },
+      "id": 273,
+      "thread_id": 35
+    },
+    {
+      "event": "call",
+      "id": 274,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_, contact0_.city as city2_0_, contact0_.email as email3_0_, contact0_.name as name4_0_, contact0_.phone as phone5_0_, contact0_.zipcode as zipcode6_0_ from contact contact0_"
+      },
+      "thread_id": 35
+    },
+    {
+      "elapsed": 0.00010143,
+      "event": "return",
+      "id": 275,
+      "parent_id": 274,
+      "thread_id": 35
+    },
+    {
+      "elapsed": 0.045029,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Transfer-Encoding": "chunked",
+          "Keep-Alive": "timeout=60",
+          "Connection": "keep-alive",
+          "Date": "Mon, 24 Jul 2023 11:07:45 GMT",
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      },
+      "id": 276,
+      "parent_id": 273,
+      "thread_id": 35
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "cors",
+          "referer": "http://localhost:8080/swagger-ui/index.html",
+          "sec-fetch-site": "same-origin",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "jenkins-timestamper-offset=-19800000; remember-me=c2hhcmF0aC0xMDcwNDY1ODoxNjkwOTU2NTY3NTUwOjlmNGQwZWZlOGE1YTI1MGI5OGViNWMyOGZkNjE5YzczMzQzODc4MjY2MGEyZjRiMDBkMjk3ODdlZjNjYTI4NDY",
+          "accept": "*/*",
+          "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
+          "host": "localhost:8080",
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+          "sec-fetch-dest": "empty"
+        },
+        "normalized_path_info": "/api/contacts/{id}",
+        "path_info": "/api/contacts/41",
+        "protocol": "HTTP/1.1",
+        "request_method": "GET"
+      },
+      "id": 277,
+      "message": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "id",
+          "object_id": 755094808,
+          "value": "41"
+        }
+      ],
+      "thread_id": 26
+    },
+    {
+      "defined_class": "com.example.ContactPage.controller.ContactController",
+      "event": "call",
+      "id": 278,
+      "lineno": 30,
+      "method_id": "getContactById",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 1284441994,
+          "value": "41"
+        }
+      ],
+      "path": "com/example/ContactPage/controller/ContactController.java",
+      "receiver": {
+        "class": "com.example.ContactPage.controller.ContactController",
+        "object_id": 1126178692,
+        "value": "com.example.ContactPage.controller.ContactController@43201f84"
+      },
+      "static": false,
+      "thread_id": 26
+    },
+    {
+      "defined_class": "com.example.ContactPage.service.ContactService",
+      "event": "call",
+      "id": 279,
+      "lineno": 26,
+      "method_id": "getContactById",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 1284441994,
+          "value": "41"
+        }
+      ],
+      "path": "com/example/ContactPage/service/ContactService.java",
+      "receiver": {
+        "class": "com.example.ContactPage.service.ContactService",
+        "object_id": 192279540,
+        "value": "com.example.ContactPage.service.ContactService@b75f3f4"
+      },
+      "static": false,
+      "thread_id": 26
+    },
+    {
+      "event": "call",
+      "id": 280,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 26
+    },
+    {
+      "elapsed": 0.00009892,
+      "event": "return",
+      "id": 281,
+      "parent_id": 280,
+      "thread_id": 26
+    },
+    {
+      "elapsed": 0.00100005,
+      "event": "return",
+      "id": 282,
+      "parent_id": 279,
+      "return_value": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 724103335,
+        "value": "Contact(id=41, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "thread_id": 26
+    },
+    {
+      "elapsed": 0.00110035,
+      "event": "return",
+      "id": 283,
+      "parent_id": 278,
+      "return_value": {
+        "class": "com.example.ContactPage.model.Contact",
+        "object_id": 724103335,
+        "value": "Contact(id=41, name=kumar, email=sharath@example.com, phone=9182092380, city=pune, zipcode=509123)"
+      },
+      "thread_id": 26
+    },
+    {
+      "elapsed": 0.00210456,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Transfer-Encoding": "chunked",
+          "Keep-Alive": "timeout=60",
+          "Connection": "keep-alive",
+          "Date": "Mon, 24 Jul 2023 11:07:58 GMT",
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      },
+      "id": 284,
+      "parent_id": 277,
+      "thread_id": 26
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "cors",
+          "referer": "http://localhost:8080/swagger-ui/index.html",
+          "sec-fetch-site": "same-origin",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "jenkins-timestamper-offset=-19800000; remember-me=c2hhcmF0aC0xMDcwNDY1ODoxNjkwOTU2NTY3NTUwOjlmNGQwZWZlOGE1YTI1MGI5OGViNWMyOGZkNjE5YzczMzQzODc4MjY2MGEyZjRiMDBkMjk3ODdlZjNjYTI4NDY",
+          "accept": "*/*",
+          "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
+          "host": "localhost:8080",
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+          "sec-fetch-dest": "empty"
+        },
+        "normalized_path_info": "/api/contacts/{id}",
+        "path_info": "/api/contacts/42",
+        "protocol": "HTTP/1.1",
+        "request_method": "GET"
+      },
+      "id": 285,
+      "message": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "id",
+          "object_id": 1106388111,
+          "value": "42"
+        }
+      ],
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.example.ContactPage.controller.ContactController",
+      "event": "call",
+      "id": 286,
+      "lineno": 30,
+      "method_id": "getContactById",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 920674791,
+          "value": "42"
+        }
+      ],
+      "path": "com/example/ContactPage/controller/ContactController.java",
+      "receiver": {
+        "class": "com.example.ContactPage.controller.ContactController",
+        "object_id": 1126178692,
+        "value": "com.example.ContactPage.controller.ContactController@43201f84"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.example.ContactPage.service.ContactService",
+      "event": "call",
+      "id": 287,
+      "lineno": 26,
+      "method_id": "getContactById",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 920674791,
+          "value": "42"
+        }
+      ],
+      "path": "com/example/ContactPage/service/ContactService.java",
+      "receiver": {
+        "class": "com.example.ContactPage.service.ContactService",
+        "object_id": 192279540,
+        "value": "com.example.ContactPage.service.ContactService@b75f3f4"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "event": "call",
+      "id": 288,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.00010565,
+      "event": "return",
+      "id": 289,
+      "parent_id": 288,
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0012014,
+      "event": "return",
+      "id": 290,
+      "parent_id": 287,
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.00130063,
+      "event": "return",
+      "id": 291,
+      "parent_id": 286,
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.00191025,
+      "event": "return",
+      "http_server_response": {
+        "headers": {},
+        "status": 200
+      },
+      "id": 292,
+      "parent_id": 285,
+      "thread_id": 27
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "app": "ContactPage",
+    "language": {
+      "name": "java",
+      "version": "17.0.7+7-LTS",
+      "engine": "OpenJDK 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "remote_recording",
+      "type": "remote"
+    },
+    "recording": {},
+    "framework": {},
+    "name": "sharath"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "setCity",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/example/ContactPage/model/Contact.java:11"
+                        },
+                        {
+                          "name": "setId",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/example/ContactPage/model/Contact.java:11"
+                        },
+                        {
+                          "name": "setZipcode",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/example/ContactPage/model/Contact.java:11"
+                        },
+                        {
+                          "name": "setEmail",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/example/ContactPage/model/Contact.java:11"
+                        },
+                        {
+                          "name": "setName",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/example/ContactPage/model/Contact.java:11"
+                        },
+                        {
+                          "name": "setPhone",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/example/ContactPage/model/Contact.java:11"
+                        }
+                      ],
+                      "name": "Contact",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "model",
+                  "type": "package"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "createContact",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/example/ContactPage/service/ContactService.java:18"
+                        },
+                        {
+                          "name": "deleteContactById",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/example/ContactPage/service/ContactService.java:52"
+                        },
+                        {
+                          "name": "getContactById",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/example/ContactPage/service/ContactService.java:26"
+                        },
+                        {
+                          "name": "updateContact",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/example/ContactPage/service/ContactService.java:34"
+                        },
+                        {
+                          "name": "createContact",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/example/ContactPage/service/ContactService.java:22"
+                        }
+                      ],
+                      "name": "ContactService",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "service",
+                  "type": "package"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "addContact",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/example/ContactPage/controller/ContactController.java:20"
+                        },
+                        {
+                          "name": "addConatct",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/example/ContactPage/controller/ContactController.java:25"
+                        },
+                        {
+                          "name": "updateContact",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/example/ContactPage/controller/ContactController.java:40"
+                        },
+                        {
+                          "name": "getContactById",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/example/ContactPage/controller/ContactController.java:30"
+                        },
+                        {
+                          "name": "deleteContact",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/example/ContactPage/controller/ContactController.java:45"
+                        }
+                      ],
+                      "name": "ContactController",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "controller",
+                  "type": "package"
+                }
+              ],
+              "name": "ContactPage",
+              "type": "package"
+            }
+          ],
+          "name": "example",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "POST /api/contacts/addContact"
+        },
+        {
+          "type": "route",
+          "name": "PUT /api/contacts/updateContact"
+        },
+        {
+          "type": "route",
+          "name": "POST /api/contacts"
+        },
+        {
+          "type": "route",
+          "name": "DELETE /api/contacts/contact/{id}"
+        },
+        {
+          "type": "route",
+          "name": "GET /api/contacts/contact"
+        },
+        {
+          "type": "route",
+          "name": "GET /api/contacts/{id}"
+        }
+      ]
+    },
+    {
+      "type": "database",
+      "name": "Database",
+      "children": [
+        {
+          "type": "query",
+          "name": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+        },
+        {
+          "type": "query",
+          "name": "insert into contact (city, email, name, phone, zipcode) values (?, ?, ?, ?, ?)"
+        },
+        {
+          "type": "query",
+          "name": "delete from contact where id=?"
+        },
+        {
+          "type": "query",
+          "name": "update contact set city=?, email=?, name=?, phone=?, zipcode=? where id=?"
+        },
+        {
+          "type": "query",
+          "name": "select contact0_.id as id1_0_, contact0_.city as city2_0_, contact0_.email as email3_0_, contact0_.name as name4_0_, contact0_.phone as phone5_0_, contact0_.zipcode as zipcode6_0_ from contact contact0_"
+        }
+      ]
+    }
+  ]
+}

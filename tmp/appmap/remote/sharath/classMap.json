@@ -1,0 +1,208 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "setCity",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/ContactPage/model/Contact.java:11"
+                      },
+                      {
+                        "name": "setId",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/ContactPage/model/Contact.java:11"
+                      },
+                      {
+                        "name": "setZipcode",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/ContactPage/model/Contact.java:11"
+                      },
+                      {
+                        "name": "setEmail",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/ContactPage/model/Contact.java:11"
+                      },
+                      {
+                        "name": "setName",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/ContactPage/model/Contact.java:11"
+                      },
+                      {
+                        "name": "setPhone",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/ContactPage/model/Contact.java:11"
+                      }
+                    ],
+                    "name": "Contact",
+                    "type": "class"
+                  }
+                ],
+                "name": "model",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "createContact",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/ContactPage/service/ContactService.java:18"
+                      },
+                      {
+                        "name": "deleteContactById",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/ContactPage/service/ContactService.java:52"
+                      },
+                      {
+                        "name": "getContactById",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/ContactPage/service/ContactService.java:26"
+                      },
+                      {
+                        "name": "updateContact",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/ContactPage/service/ContactService.java:34"
+                      },
+                      {
+                        "name": "createContact",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/ContactPage/service/ContactService.java:22"
+                      }
+                    ],
+                    "name": "ContactService",
+                    "type": "class"
+                  }
+                ],
+                "name": "service",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "addContact",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/ContactPage/controller/ContactController.java:20"
+                      },
+                      {
+                        "name": "addConatct",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/ContactPage/controller/ContactController.java:25"
+                      },
+                      {
+                        "name": "updateContact",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/ContactPage/controller/ContactController.java:40"
+                      },
+                      {
+                        "name": "getContactById",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/ContactPage/controller/ContactController.java:30"
+                      },
+                      {
+                        "name": "deleteContact",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/ContactPage/controller/ContactController.java:45"
+                      }
+                    ],
+                    "name": "ContactController",
+                    "type": "class"
+                  }
+                ],
+                "name": "controller",
+                "type": "package"
+              }
+            ],
+            "name": "ContactPage",
+            "type": "package"
+          }
+        ],
+        "name": "example",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "POST /api/contacts/addContact"
+      },
+      {
+        "type": "route",
+        "name": "PUT /api/contacts/updateContact"
+      },
+      {
+        "type": "route",
+        "name": "POST /api/contacts"
+      },
+      {
+        "type": "route",
+        "name": "DELETE /api/contacts/contact/{id}"
+      },
+      {
+        "type": "route",
+        "name": "GET /api/contacts/contact"
+      },
+      {
+        "type": "route",
+        "name": "GET /api/contacts/{id}"
+      }
+    ]
+  },
+  {
+    "type": "database",
+    "name": "Database",
+    "children": [
+      {
+        "type": "query",
+        "name": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+      },
+      {
+        "type": "query",
+        "name": "insert into contact (city, email, name, phone, zipcode) values (?, ?, ?, ?, ?)"
+      },
+      {
+        "type": "query",
+        "name": "delete from contact where id=?"
+      },
+      {
+        "type": "query",
+        "name": "update contact set city=?, email=?, name=?, phone=?, zipcode=? where id=?"
+      },
+      {
+        "type": "query",
+        "name": "select contact0_.id as id1_0_, contact0_.city as city2_0_, contact0_.email as email3_0_, contact0_.name as name4_0_, contact0_.phone as phone5_0_, contact0_.zipcode as zipcode6_0_ from contact contact0_"
+      }
+    ]
+  }
+]

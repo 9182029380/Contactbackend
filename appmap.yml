@@ -1,0 +1,3 @@
+name: ContactPage
+packages:
+- path: com.example.ContactPage

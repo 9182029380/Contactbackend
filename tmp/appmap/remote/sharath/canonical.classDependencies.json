@@ -1,0 +1,42 @@
+[
+  {
+    "caller": "DELETE /api/contacts/contact/{id}",
+    "callee": "com/example"
+  },
+  {
+    "caller": "GET /api/contacts/contact",
+    "callee": "select contact0_.id as id1_0_, contact0_.city as city2_0_, contact0_.email as email3_0_, contact0_.name as name4_0_, contact0_.phone as phone5_0_, contact0_.zipcode as zipcode6_0_ from contact contact0_"
+  },
+  {
+    "caller": "GET /api/contacts/{id}",
+    "callee": "com/example"
+  },
+  {
+    "caller": "POST /api/contacts",
+    "callee": "com/example"
+  },
+  {
+    "caller": "POST /api/contacts/addContact",
+    "callee": "com/example"
+  },
+  {
+    "caller": "PUT /api/contacts/updateContact",
+    "callee": "com/example"
+  },
+  {
+    "caller": "com/example",
+    "callee": "delete from contact where id=?"
+  },
+  {
+    "caller": "com/example",
+    "callee": "insert into contact (city, email, name, phone, zipcode) values (?, ?, ?, ?, ?)"
+  },
+  {
+    "caller": "com/example",
+    "callee": "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?"
+  },
+  {
+    "caller": "com/example",
+    "callee": "update contact set city=?, email=?, name=?, phone=?, zipcode=? where id=?"
+  }
+]

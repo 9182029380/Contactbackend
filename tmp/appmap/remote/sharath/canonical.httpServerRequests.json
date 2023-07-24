@@ -1,0 +1,32 @@
+[
+  {
+    "route": "DELETE /api/contacts/contact/{id}",
+    "parameters": "(id)",
+    "status": 200
+  },
+  {
+    "route": "GET /api/contacts/contact",
+    "parameters": "()",
+    "status": 200
+  },
+  {
+    "route": "GET /api/contacts/{id}",
+    "parameters": "(id)",
+    "status": 200
+  },
+  {
+    "route": "POST /api/contacts",
+    "parameters": "()",
+    "status": 200
+  },
+  {
+    "route": "POST /api/contacts/addContact",
+    "parameters": "()",
+    "status": 200
+  },
+  {
+    "route": "PUT /api/contacts/updateContact",
+    "parameters": "()",
+    "status": 200
+  }
+]

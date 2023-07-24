@@ -1,0 +1,7 @@
+[
+  "delete from contact where id=?",
+  "insert into contact (city, email, name, phone, zipcode) values (?, ?, ?, ?, ?)",
+  "select contact0_.id as id1_0_, contact0_.city as city2_0_, contact0_.email as email3_0_, contact0_.name as name4_0_, contact0_.phone as phone5_0_, contact0_.zipcode as zipcode6_0_ from contact contact0_",
+  "select contact0_.id as id1_0_0_, contact0_.city as city2_0_0_, contact0_.email as email3_0_0_, contact0_.name as name4_0_0_, contact0_.phone as phone5_0_0_, contact0_.zipcode as zipcode6_0_0_ from contact contact0_ where contact0_.id=?",
+  "update contact set city=?, email=?, name=?, phone=?, zipcode=? where id=?"
+]
